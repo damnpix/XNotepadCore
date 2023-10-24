@@ -38,6 +38,18 @@ private void yourButton_Click(object sender, EventArgs e)
     XNotepadCore.OpenFile(richTextBox1, openFileDialog1, this);
 }
 ```
+```c#
+private void yourButton_Click(object sender, EventArgs e)
+{
+    XNotepadCore.CreateNewWindow(this);
+}
+```
+```c#
+private void yourButton_Click(object sender, EventArgs e)
+{
+    XNotepadCore.SetRTextBoxZoomMore(richTextBox1, 25);
+}
+```
 5.Rather than **<XNotepadCore.OpenFile>** you can write any of functions of block **"What features are there?"**.
 
 ## Requirements for each function
@@ -57,5 +69,6 @@ private void yourButton_Click(object sender, EventArgs e)
 - Copy -> **(RichTextBox)**
 - Paste -> **(RichTextBox)**
 - Date -> **(RichTextBox)**
-- Set text box zoom+ -> **(RichTextBox, ZoomMaxValue)**
+- Set text box zoom more -> **(RichTextBox, ZoomMaxValue)**
+- Set text box zoom less -> **(RichTextBox)**
 - Change font -> **(RichTextBox, FontName, FontSize)**
