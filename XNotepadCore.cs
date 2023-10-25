@@ -80,6 +80,7 @@ internal class XNotepadCore
     public static void _edit_Copy(RichTextBox richTextBox)
     {
         Clipboard.SetText(richTextBox.Text);
+        MessageBox.Show("Copied!");
     }
     public static void _edit_Paste(RichTextBox richTextBox)
     {
