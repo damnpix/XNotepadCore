@@ -82,8 +82,8 @@ private void yourTextBox_TextChanged(object sender, EventArgs e)
 - Date -> **(RichTextBox)**
 - Set text box zoom more -> **(RichTextBox, ZoomMaxValue)**
 - Set text box zoom less -> **(RichTextBox)**
-- Change font -> **(RichTextBox, FontName, FontSize)**
 - Reset text box zoom -> **(RichTextBox)**
+- Change font -> **(RichTextBox, FontName, FontSize)**
 - Find -> **(RichTextBox, SearchText)**
 
 ### (Other)
