@@ -44,7 +44,7 @@ private void yourButton_Click(object sender, EventArgs e)
     XNotepadCore.OpenFile(richTextBox1, openFileDialog1, this);
 }
 ```
-**CCreate new window:**
+**Create new window:**
 ```c#
 private void yourButton_Click(object sender, EventArgs e)
 {
