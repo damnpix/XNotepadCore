@@ -19,7 +19,9 @@ Core of notepad for using in c# projects
 - Paste
 - Date
 - Set text box zoom
+- Reset text box zoom
 - Change font
+- Find
 
 ### (Other)
 - Count lines
@@ -81,6 +83,8 @@ private void yourTextBox_TextChanged(object sender, EventArgs e)
 - Set text box zoom more -> **(RichTextBox, ZoomMaxValue)**
 - Set text box zoom less -> **(RichTextBox)**
 - Change font -> **(RichTextBox, FontName, FontSize)**
+- Reset text box zoom -> **(RichTextBox)**
+- Find -> **(RichTextBox, SearchText)**
 
 ### (Other)
 - Count lines -> **(RichTextBox)**
