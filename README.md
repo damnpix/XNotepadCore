@@ -37,24 +37,28 @@ You have the right to make changes to the core.
 
 4.Write a script from a template.
 
+**Open file:**
 ```c#
 private void yourButton_Click(object sender, EventArgs e)
 {
     XNotepadCore.OpenFile(richTextBox1, openFileDialog1, this);
 }
 ```
+**CCreate new window:**
 ```c#
 private void yourButton_Click(object sender, EventArgs e)
 {
     XNotepadCore.CreateNewWindow(this);
 }
 ```
+**Set text box zoom:**
 ```c#
 private void yourButton_Click(object sender, EventArgs e)
 {
     XNotepadCore.SetRTextBoxZoomMore(richTextBox1, 25);
 }
 ```
+**Count lines:**
 ```c#
 private void yourTextBox_TextChanged(object sender, EventArgs e)
 {
