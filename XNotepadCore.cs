@@ -106,4 +106,10 @@ internal class XNotepadCore
     {
         richTextBox.Font = new Font(fontName, fontSize);
     }
+
+    //Other
+    public static string CountLines(RichTextBox richTextBox) 
+    {
+        return richTextBox.Text.Split('\n').Length.ToString();
+    }
 }
