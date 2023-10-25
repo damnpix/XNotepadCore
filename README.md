@@ -21,6 +21,9 @@ Core of notepad for using in c# projects
 - Set text box zoom
 - Change font
 
+### (Other)
+- Count lines
+
 ## How to use?
 You have the right to make changes to the core.
 
@@ -50,6 +53,12 @@ private void yourButton_Click(object sender, EventArgs e)
     XNotepadCore.SetRTextBoxZoomMore(richTextBox1, 25);
 }
 ```
+```c#
+private void yourTextBox_TextChanged(object sender, EventArgs e)
+{
+    labelWithCount.Text = XNotepadCore.CountLines(richTextBox1);
+}
+```
 5.Rather than **<XNotepadCore.OpenFile>** you can write any of functions of block **"What features are there?"**.
 
 ## Requirements for each function
@@ -72,3 +81,6 @@ private void yourButton_Click(object sender, EventArgs e)
 - Set text box zoom more -> **(RichTextBox, ZoomMaxValue)**
 - Set text box zoom less -> **(RichTextBox)**
 - Change font -> **(RichTextBox, FontName, FontSize)**
+
+### (Other)
+- Count lines -> **(RichTextBox)**
